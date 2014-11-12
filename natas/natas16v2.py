@@ -1,6 +1,6 @@
 #!/bin/python3
-# python3
 # "8Ps3H0GWbn5rd9S7GmAdgQNdkhPkq9cw"
+
 import urllib.request
 import urllib.parse
 import sys
