@@ -7,7 +7,6 @@ maxid = 641
 user = "natas19"
 passwd = "4IwIrekcuZlA9OsjOkoUtwU6lhokCPYs" 
 url = "http://"+user+".natas.labs.overthewire.org"
-key = 'PHPSESSID'
 admin = '-admin'
 match = "You are an admin. The credentials for the next level are:"
 
@@ -29,4 +28,4 @@ for i in range(maxid):
 		break
 
 
-	
+
