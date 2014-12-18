@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cipher=$(</games/krypton/krypton1/krypton2)
+#cipher=$(</games/krypton/krypton1/krypton2)
+cipher=$(</Users/sokam/OTW/krypton/k2/krypton2)
 alpha=ABCDEFGHIJKLMNOPQRSTUVWXYZ
 echo $alpha
 echo $cipher
